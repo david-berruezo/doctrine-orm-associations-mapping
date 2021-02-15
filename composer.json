@@ -1,0 +1,19 @@
+{
+    "name": "proyectos/doctrine",
+    "description": "Aplicacion Doctrine ORM",
+    "require": {
+      "doctrine/orm": "^2.6.2",
+      "symfony/yaml": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+          "src": "src/"
+        },
+        "psr-4": {
+          "Classes\\": "app/"
+        },
+        "files": [
+          "helpers/helper.php"
+        ]
+    }
+}
